@@ -9,9 +9,9 @@ import numpy as np
 import tensorflow as tf
 import time
 
-import model, sample, encoder
-from load_dataset import load_dataset, Sampler
-from accumulate import AccumulatingOptimizer
+from src import model, sample, encoder
+from src.load_dataset import load_dataset, Sampler
+from src.accumulate import AccumulatingOptimizer
 
 CHECKPOINT_DIR = 'checkpoint'
 SAMPLE_DIR = 'samples'
